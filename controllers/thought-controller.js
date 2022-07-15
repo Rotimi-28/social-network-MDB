@@ -2,7 +2,7 @@ const { Thought, User } = require("../models");
 
 const thoughtController = {
   //get all thought
-  getAllThought(req, res) {
+  getAllThoughts(req, res) {
     Thought.find({})
       .then((dbThoughtData) => res.json(dbThoughtData))
       .catch((err) => {
@@ -31,7 +31,7 @@ const thoughtController = {
       .then(({ _id }) => {
         return User.findOneAndUpdate(
           { _id: body.userId },
-          { $push: { thoughts: _id } },
+          { $push: { thought: _id } },
           { new: true }
         );
       })

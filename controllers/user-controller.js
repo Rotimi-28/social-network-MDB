@@ -1,6 +1,6 @@
 const { User } = require("../models");
 
-const usertController = {
+const userController = {
     //get all user
     getAllUsers(req, res) {
         User.find({})
@@ -47,7 +47,7 @@ const usertController = {
         });
     },
     deleteUser({ params }, res){
-        User.findOneAndUpdate({ _id: params.id })
+        User.findOneAndDelete({ _id: params.id })
             .then(dbUserData => {
                 if (!dbUserData){
                     res.status(400).json({ message: "No user find with this id!" });
@@ -80,7 +80,7 @@ const usertController = {
       removeFriends({ params }, res) {
         User.findOneAndUpdate(
           { _id: params.userId },
-          { $push: { friends: params.friendId } },
+          { $pull: { friends: params.friendId } },
           { new: true, runValidators: true }
         )
           .then((dbUserData) => {
