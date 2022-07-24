@@ -17,4 +17,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/social-ne
 app.use(routes);
 app.listen(PORT, () => {
     console.log("app started in port 3001");
-} )
+})

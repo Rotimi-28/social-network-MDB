@@ -33,8 +33,16 @@ ________________________________________________________________________________
 ## 6. Questions 
        If you have any question, or any valuable information that might be useful, kindly reach me through the contact below
 ____________________________________________________________________________________________________________________________________________
-#### Github: 
-[https://github.com/Rotimi-28/social-network-MDB](#Github)
+#### Repo: 
+* https://github.com/Rotimi-28/social-network-MDB
+
+## Video Links
+ * https://drive.google.com/file/d/1kvgETFLLmDaxdkcT22y-CqNWwpO99DD8/view
+
+ * https://drive.google.com/file/d/1TnuNTNk4e1uBH0lk-l_mQRJkEks6f2lW/view
+
+ * https://drive.google.com/file/d/1HMlkYxYxtujsndsKbwSnxl5L5MSrfJjl/view
+
 #### email : 
-[matanmearoja@yahoo.com](#email)
+* matanmearoja@yahoo.com
 
